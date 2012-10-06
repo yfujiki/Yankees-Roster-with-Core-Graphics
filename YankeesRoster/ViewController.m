@@ -72,7 +72,8 @@ static inline BOOL isIphone5() {
 {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%d. %@", indexPath.row, self.rosterNames[indexPath.row]];
+    NSString * prefix = (indexPath.row < 9) ? [NSString stringWithFormat:@"%d.", indexPath.row + 1] : @"P.";
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", prefix, self.rosterNames[indexPath.row]];
     cell.detailTextLabel.text = self.rosterPositions[indexPath.row];
     
     if(isIphone5())
