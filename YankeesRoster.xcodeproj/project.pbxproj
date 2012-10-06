@@ -18,17 +18,28 @@
 		8054287F161FF4BC00671C2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8054287E161FF4BC00671C2D /* Default-568h@2x.png */; };
 		80542882161FF4BC00671C2D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80542880161FF4BC00671C2D /* MainStoryboard.storyboard */; };
 		80542885161FF4BC00671C2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80542884161FF4BC00671C2D /* ViewController.m */; };
+		8054288D161FF4E600671C2D /* BallParkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8054288C161FF4E500671C2D /* BallParkView.m */; };
+		8054289916208D5600671C2D /* ARod.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054288F16208D5600671C2D /* ARod.jpeg */; };
+		8054289A16208D5600671C2D /* Cano.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289016208D5600671C2D /* Cano.jpeg */; };
+		8054289B16208D5600671C2D /* Granderson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289116208D5600671C2D /* Granderson.jpeg */; };
+		8054289C16208D5600671C2D /* Ibanez.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289216208D5600671C2D /* Ibanez.jpeg */; };
+		8054289D16208D5600671C2D /* Ichiro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289316208D5600671C2D /* Ichiro.jpeg */; };
+		8054289E16208D5600671C2D /* Jeter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289416208D5600671C2D /* Jeter.jpeg */; };
+		8054289F16208D5600671C2D /* Kuroda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289516208D5600671C2D /* Kuroda.jpeg */; };
+		805428A016208D5600671C2D /* Martin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289616208D5600671C2D /* Martin.jpeg */; };
+		805428A116208D5600671C2D /* Swisher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289716208D5600671C2D /* Swisher.jpeg */; };
+		805428A216208D5600671C2D /* Teixeira.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8054289816208D5600671C2D /* Teixeira.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80542864161FF4BC00671C2D /* BaseBallPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseBallPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80542864161FF4BC00671C2D /* YankeesRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YankeesRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80542868161FF4BC00671C2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8054286A161FF4BC00671C2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8054286C161FF4BC00671C2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		80542870161FF4BC00671C2D /* BaseBallPark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaseBallPark-Info.plist"; sourceTree = "<group>"; };
+		80542870161FF4BC00671C2D /* YankeesRoster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YankeesRoster-Info.plist"; sourceTree = "<group>"; };
 		80542872161FF4BC00671C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80542874161FF4BC00671C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80542876161FF4BC00671C2D /* BaseBallPark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseBallPark-Prefix.pch"; sourceTree = "<group>"; };
+		80542876161FF4BC00671C2D /* YankeesRoster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YankeesRoster-Prefix.pch"; sourceTree = "<group>"; };
 		80542877161FF4BC00671C2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80542878161FF4BC00671C2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8054287A161FF4BC00671C2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +48,18 @@
 		80542881161FF4BC00671C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		80542883161FF4BC00671C2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80542884161FF4BC00671C2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8054288B161FF4E500671C2D /* BallParkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallParkView.h; sourceTree = "<group>"; };
+		8054288C161FF4E500671C2D /* BallParkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallParkView.m; sourceTree = "<group>"; };
+		8054288F16208D5600671C2D /* ARod.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARod.jpeg; sourceTree = "<group>"; };
+		8054289016208D5600671C2D /* Cano.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cano.jpeg; sourceTree = "<group>"; };
+		8054289116208D5600671C2D /* Granderson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Granderson.jpeg; sourceTree = "<group>"; };
+		8054289216208D5600671C2D /* Ibanez.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ibanez.jpeg; sourceTree = "<group>"; };
+		8054289316208D5600671C2D /* Ichiro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ichiro.jpeg; sourceTree = "<group>"; };
+		8054289416208D5600671C2D /* Jeter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jeter.jpeg; sourceTree = "<group>"; };
+		8054289516208D5600671C2D /* Kuroda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kuroda.jpeg; sourceTree = "<group>"; };
+		8054289616208D5600671C2D /* Martin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Martin.jpeg; sourceTree = "<group>"; };
+		8054289716208D5600671C2D /* Swisher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Swisher.jpeg; sourceTree = "<group>"; };
+		8054289816208D5600671C2D /* Teixeira.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Teixeira.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +79,7 @@
 		80542859161FF4BC00671C2D = {
 			isa = PBXGroup;
 			children = (
-				8054286E161FF4BC00671C2D /* BaseBallPark */,
+				8054286E161FF4BC00671C2D /* YankeesRoster */,
 				80542867161FF4BC00671C2D /* Frameworks */,
 				80542865161FF4BC00671C2D /* Products */,
 			);
@@ -65,7 +88,7 @@
 		80542865161FF4BC00671C2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80542864161FF4BC00671C2D /* BaseBallPark.app */,
+				80542864161FF4BC00671C2D /* YankeesRoster.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,26 +103,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8054286E161FF4BC00671C2D /* BaseBallPark */ = {
+		8054286E161FF4BC00671C2D /* YankeesRoster */ = {
 			isa = PBXGroup;
 			children = (
+				8054288E16208D3400671C2D /* Roster */,
 				80542877161FF4BC00671C2D /* AppDelegate.h */,
 				80542878161FF4BC00671C2D /* AppDelegate.m */,
 				80542880161FF4BC00671C2D /* MainStoryboard.storyboard */,
 				80542883161FF4BC00671C2D /* ViewController.h */,
 				80542884161FF4BC00671C2D /* ViewController.m */,
 				8054286F161FF4BC00671C2D /* Supporting Files */,
+				8054288B161FF4E500671C2D /* BallParkView.h */,
+				8054288C161FF4E500671C2D /* BallParkView.m */,
 			);
-			path = BaseBallPark;
+			path = YankeesRoster;
 			sourceTree = "<group>";
 		};
 		8054286F161FF4BC00671C2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				80542870161FF4BC00671C2D /* BaseBallPark-Info.plist */,
+				80542870161FF4BC00671C2D /* YankeesRoster-Info.plist */,
 				80542871161FF4BC00671C2D /* InfoPlist.strings */,
 				80542874161FF4BC00671C2D /* main.m */,
-				80542876161FF4BC00671C2D /* BaseBallPark-Prefix.pch */,
+				80542876161FF4BC00671C2D /* YankeesRoster-Prefix.pch */,
 				8054287A161FF4BC00671C2D /* Default.png */,
 				8054287C161FF4BC00671C2D /* Default@2x.png */,
 				8054287E161FF4BC00671C2D /* Default-568h@2x.png */,
@@ -107,12 +133,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8054288E16208D3400671C2D /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				8054288F16208D5600671C2D /* ARod.jpeg */,
+				8054289016208D5600671C2D /* Cano.jpeg */,
+				8054289116208D5600671C2D /* Granderson.jpeg */,
+				8054289216208D5600671C2D /* Ibanez.jpeg */,
+				8054289316208D5600671C2D /* Ichiro.jpeg */,
+				8054289416208D5600671C2D /* Jeter.jpeg */,
+				8054289516208D5600671C2D /* Kuroda.jpeg */,
+				8054289616208D5600671C2D /* Martin.jpeg */,
+				8054289716208D5600671C2D /* Swisher.jpeg */,
+				8054289816208D5600671C2D /* Teixeira.jpeg */,
+			);
+			path = Roster;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80542863161FF4BC00671C2D /* BaseBallPark */ = {
+		80542863161FF4BC00671C2D /* YankeesRoster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80542888161FF4BC00671C2D /* Build configuration list for PBXNativeTarget "BaseBallPark" */;
+			buildConfigurationList = 80542888161FF4BC00671C2D /* Build configuration list for PBXNativeTarget "YankeesRoster" */;
 			buildPhases = (
 				80542860161FF4BC00671C2D /* Sources */,
 				80542861161FF4BC00671C2D /* Frameworks */,
@@ -122,9 +165,9 @@
 			);
 			dependencies = (
 			);
-			name = BaseBallPark;
+			name = YankeesRoster;
 			productName = BaseBallPark;
-			productReference = 80542864161FF4BC00671C2D /* BaseBallPark.app */;
+			productReference = 80542864161FF4BC00671C2D /* YankeesRoster.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +179,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Yuichi Fujiki";
 			};
-			buildConfigurationList = 8054285E161FF4BC00671C2D /* Build configuration list for PBXProject "BaseBallPark" */;
+			buildConfigurationList = 8054285E161FF4BC00671C2D /* Build configuration list for PBXProject "YankeesRoster" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80542863161FF4BC00671C2D /* BaseBallPark */,
+				80542863161FF4BC00671C2D /* YankeesRoster */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +206,16 @@
 				8054287D161FF4BC00671C2D /* Default@2x.png in Resources */,
 				8054287F161FF4BC00671C2D /* Default-568h@2x.png in Resources */,
 				80542882161FF4BC00671C2D /* MainStoryboard.storyboard in Resources */,
+				8054289916208D5600671C2D /* ARod.jpeg in Resources */,
+				8054289A16208D5600671C2D /* Cano.jpeg in Resources */,
+				8054289B16208D5600671C2D /* Granderson.jpeg in Resources */,
+				8054289C16208D5600671C2D /* Ibanez.jpeg in Resources */,
+				8054289D16208D5600671C2D /* Ichiro.jpeg in Resources */,
+				8054289E16208D5600671C2D /* Jeter.jpeg in Resources */,
+				8054289F16208D5600671C2D /* Kuroda.jpeg in Resources */,
+				805428A016208D5600671C2D /* Martin.jpeg in Resources */,
+				805428A116208D5600671C2D /* Swisher.jpeg in Resources */,
+				805428A216208D5600671C2D /* Teixeira.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +229,7 @@
 				80542875161FF4BC00671C2D /* main.m in Sources */,
 				80542879161FF4BC00671C2D /* AppDelegate.m in Sources */,
 				80542885161FF4BC00671C2D /* ViewController.m in Sources */,
+				8054288D161FF4E600671C2D /* BallParkView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseBallPark/BaseBallPark-Prefix.pch";
-				INFOPLIST_FILE = "BaseBallPark/BaseBallPark-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "YankeesRoster/YankeesRoster-Prefix.pch";
+				INFOPLIST_FILE = "YankeesRoster/YankeesRoster-Info.plist";
+				PRODUCT_NAME = YankeesRoster;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,9 +319,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseBallPark/BaseBallPark-Prefix.pch";
-				INFOPLIST_FILE = "BaseBallPark/BaseBallPark-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "YankeesRoster/YankeesRoster-Prefix.pch";
+				INFOPLIST_FILE = "YankeesRoster/YankeesRoster-Info.plist";
+				PRODUCT_NAME = YankeesRoster;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8054285E161FF4BC00671C2D /* Build configuration list for PBXProject "BaseBallPark" */ = {
+		8054285E161FF4BC00671C2D /* Build configuration list for PBXProject "YankeesRoster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80542886161FF4BC00671C2D /* Debug */,
@@ -284,13 +338,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80542888161FF4BC00671C2D /* Build configuration list for PBXNativeTarget "BaseBallPark" */ = {
+		80542888161FF4BC00671C2D /* Build configuration list for PBXNativeTarget "YankeesRoster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80542889161FF4BC00671C2D /* Debug */,
 				8054288A161FF4BC00671C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
