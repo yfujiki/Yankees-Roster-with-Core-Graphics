@@ -88,7 +88,6 @@
     
     CGFloat startAngle = -atanf(20.f/280);
     CGFloat endAngle = -atanf(280.f/20);
-    NSLog(@"From %f to %f", startAngle, endAngle);
     CGMutablePathRef arcPath = CGPathCreateMutable();
     CGPathAddArc(arcPath, NULL, 0, 300, 280, startAngle, endAngle, YES);
     CGPathAddLineToPoint(arcPath, NULL, 20, 280);
